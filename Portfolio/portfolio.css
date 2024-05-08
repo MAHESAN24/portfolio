@@ -1,0 +1,144 @@
+:root{
+    --green:#DCFFB7;
+    --gray:#3D3B40;
+
+    
+}
+body{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'JetBrains Mono';
+    /* background-color: #A0AECD; */
+    background-color: #7DA2A9;
+    background-color: #000000;
+    margin: 0%;
+    color: var(--green);
+}
+.Header{
+    /* background-image: url(/Portfolio/Images/White\ Minimalist\ Profile\ LinkedIn\ Banner.png); */
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.Heading{
+    /* color: greenyellow; */
+    color: #DCFFB7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.Image{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.AboutPara{
+    text-indent: 60px;
+    color: aliceblue;
+
+}
+.AboutPara::first-letter{
+    font-size: 30px;
+}
+.Highlights{
+    
+    list-style:lower-greek;
+    color: #DCFFB7;
+}
+.ListDiv{
+    display: flex;
+    justify-content: center;  
+}
+/* -----------------------------------Project_Area start */
+.Project_Area{
+    border-top:2px solid #DCFFB7;
+    display: flex;
+    flex-direction: column;
+}
+/* -----------------------------------Project_Heading_container start  */
+.Project_Heading_container{
+    display: flex;
+    justify-content: center;
+}
+.Project_Heading_image{
+    /* border:2px solid rgb(0, 4, 255); */
+    width: 20vh;
+}
+.Project_Title{
+    /* border:2px solid rgb(112, 250, 0); */
+    flex-basis: 60vh;
+    text-align: center;
+    color: var(--green);
+    text-decoration: underline;
+    text-shadow: 1px 1.5px 5px black;
+}
+.Project_Title_emoje{
+    text-decoration: none;
+    /* border:2px solid rgb(112, 250, 0); */
+}
+/* -----------------------------------Project_Heading_container end  */
+
+/* -----------------------------------Project_List start  */
+.List_img_1{
+    width: 20vh;
+    height: 50vh;
+    /* border:2px solid rgb(0, 250, 62); */
+}
+.List_img_1:hover{
+    transform: scaleX(-1);
+    /* content: url(/Images/Avatar/venky.png);
+    content: url(/Images/Avatar/Ami.png); */
+
+}
+.img_a{
+    /* border:2px solid rgb(250, 0, 0); */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.My_Project_List_Parent_Containner{
+    /* border:2px solid rgb(250, 17, 0); */
+    border-top:2px solid #DCFFB7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.Project_list{
+    /* border:2px solid #7DA2A9; */
+    flex: 0.3;
+    align-items: center;
+    text-align: center;
+    list-style-type:none; 
+    color: var(--green);
+    
+}
+.Project_list li{
+    align-items: center;
+    /* width: 60vh; */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border:2px solid #00e065;
+}
+.Project_list a{
+    text-decoration: none;
+    color: var(--green);
+}
+.Project_list li:hover{
+    background-color: aliceblue;
+    color: #000000;
+    border: 2px solid rgb(174, 0, 255);
+}
+.Project_list a:hover{
+    /* color: #000000; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;   
+}
+/* .Showmgs{
+    border: 2px solid rgb(174, 0, 255);
+} */
